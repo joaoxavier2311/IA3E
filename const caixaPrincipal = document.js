@@ -6,7 +6,14 @@ const caixaResultado = document.querySelector('.caixa-resultado');
 const perguntas = [//abre a lista de objetos (itens)
     {//abre o item
         enunciado:"você acha que a Inteligencia Artificial é o futuro do mundo",
-        alternativas:["sim","não"]
+        alternativas:[{
+        texto: "sim"
+    afirmação: "Afirmação da altrnativa 1"
+        }   
+]    
+   {texto:"Não"
+   afirmação:"afirmação da alternativa 2" 
+}
     },
     {
         enunciado:"Você usa a Inteligencia Artificial no seu trabalho",
